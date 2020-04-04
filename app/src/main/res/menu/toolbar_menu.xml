@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainAvtivity">
+
+    <item
+        android:id="@+id/action_path"
+        android:icon="@drawable/path"
+        android:orderInCategory="100"
+        android:title="Path"
+        app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/action_park"
+        android:title="Park"
+        android:icon="@drawable/park"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
